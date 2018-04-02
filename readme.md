@@ -1,0 +1,1 @@
+# The compiled PHP Xdebug extension.
