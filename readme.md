@@ -19,6 +19,7 @@ If your PHP installed by HomeBrew, you can add `ext-xdebug.ini` to `/usr/local/e
 ```
 [Xdebug]
 zend_extension="/usr/local/lib/php/extensions/xdebug.so"
+; auto_trace 'Off' to improve performance（设置为 Off 可提升性能） 
 xdebug.auto_trace=On
 xdebug.var_display_max_children=512
 xdebug.var_display_max_data=2048
